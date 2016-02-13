@@ -1,0 +1,531 @@
+*{
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif; 
+}
+
+body{
+	margin: 0;
+}
+.qwert{
+	clear: both;
+}
+
+.dota{
+	background: url('img/dota2Background.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #F90;
+}
+.dota .logo a{
+	color: #D67000;
+}
+.dota .menu1 a{
+	background: #F90;
+}
+.dota .findUs a{
+	background-color: #F90;
+}
+.dota .menu2 a{
+	 	background: #F90;
+}
+.dota a:hover{
+	box-shadow: 0px 0px 15px 5px rgba(237,154,26,0.3);
+}
+.dota .findUs a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(237,154,26,0.3);
+}
+.list .current-dota{
+	color: #F90;
+}
+
+
+.csgo{
+	background: url('img/csgoBackground.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #F5D969;
+}
+.csgo .logo a{
+	color: #f9c91b;
+}
+.csgo .menu1 a{
+	background: #F5D969;
+}
+.csgo .findUs a{
+	background-color: #F5D969;
+}
+.csgo .menu2 a{
+	background: #F5D969;
+}
+.csgo a:hover{
+	box-shadow: 0px 0px 15px 5px rgba(245,217,105,0.3);
+}
+.csgo .findUs a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(245,217,105,0.3);
+}
+.list .current-csgo{
+	color: #F5D969;
+}
+
+.lol{
+	background: url('img/lolBackground.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #998ED2;
+}
+.lol .logo a{
+	color: #14181D;
+}
+.lol .menu1 a{
+	background: #998ED2;
+}
+.lol .findUs a{
+	background-color: #998ED2;
+}
+.lol .menu2 a{
+	background: #998ED2;
+}
+.lol iframe{
+	display: block;
+	width: 80%;
+	height: 20vw;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px 5px rgba(153,142,210,0.3);
+
+}
+.lol a:hover{
+	box-shadow: 0px 0px 15px 5px rgba(153,142,210,0.3);
+}
+.lol .findUs a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(153,142,210,0.3);
+	}
+
+.list .current-lol{
+	color: #998ED2;
+}
+
+	
+.logo{
+	text-align: center;
+	margin-top: 70px;
+}
+.logo a{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+.dota .logo a:hover,
+.csgo .logo a:hover,
+.lol .logo a:hover,
+.hs .logo a:hover,
+.zone .logo a:hover,
+.dog .logo a:hover{
+	box-shadow: none;
+	opacity: 0.5;
+}
+.hs{
+	background: url('img/hsBackground.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #d3524c;
+}
+.hs .logo a{
+	color: #D43128;
+}
+.hs .menu1 a{
+	background: #D43128;
+}
+.hs .findUs a{
+	background-color: #d3524c;
+}
+.hs .menu2 a{
+	background: #d3524c;
+}
+.hs a:hover{
+	box-shadow: 0px 0px 15px 5px rgba(212,49,40,0.4);
+}
+.hs .findUs a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(212,49,40,0.3);
+	}
+.list .current-hs{
+	color: #d3524c;
+}
+
+.zone{
+	background: url('img/zoneBackground.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #90A9BF;
+}
+.zone .logo a{
+	color: #14181D;
+}
+.zone .menu1 a{
+	background: #90A9BF;
+}
+.zone .findUs a{
+	background-color: #90A9BF;
+}
+.zone .menu2 a{
+	background: #90A9BF;
+}
+.zone a:hover{
+	box-shadow: 0px 0px 15px 5px rgba(144,169,191,0.3);
+}
+.zone .findUs a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(144,169,191,0.3);
+}
+.list .current-zone{
+	color: #90A9BF;
+}
+
+.dog{
+	background: url('img/dogBackground.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #90A9BF;
+}
+.dog .logo a{
+	color: #14181D;
+}
+.dog .menu1 a{
+	background-color: #90A9BF;
+}
+.dog .findUs a{
+	background-color: #90A9BF;
+}
+.dog .menu2 a{
+	background: #90A9BF;
+}
+.dog a:hover{
+	box-shadow: 0px 0px 15px 5px rgba(144,169,191,0.3);
+}
+.dog .findUs a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(144,169,191,0.3);
+}
+.list .current-dog{
+	color: #90A9BF;
+}
+
+
+.small-logo{
+	display: none;
+}
+.wrap{
+	max-width: 960px;
+	background: url("img/noisy_net.png");
+	border-radius: 10px;
+	margin: 50px auto 50px;
+	padding: 20px;
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+
+}
+img{
+	width: 60%;
+	height: auto;
+}
+
+.menu1{
+	width: 530px;
+	list-style: none;
+	text-align: center;
+	margin: 20px auto;
+	padding: 0;
+	
+}
+
+.menu1 li{
+	float: left;
+
+}
+
+.menu1 a{
+	display: block;
+	line-height: 40px;
+	padding: 0 20px;
+	margin: 10px 20px;
+	text-decoration: none;
+	color: #14181D;
+ 	font-weight: bold;
+ 	border-radius: 5px;
+}
+
+
+a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(255, 153, 0, 0.3);
+
+}
+
+a:active { 
+	opacity: 0.2; 
+}
+
+.info1{
+	width: 100%;
+	padding: 0 30px;
+}
+.info1 h1{
+	text-align: center;
+	font-size: 60px;
+	margin: 0 0 30px 0;
+
+}
+.info1 h2{
+	margin: 0;
+	font-size: 40px;
+	text-align: center;
+
+}
+.info1 p{
+	line-height: 1.52;
+	margin-bottom: 40px;
+
+}
+.info1 img{
+	margin-bottom: 20px;
+	border-radius: 10px;
+	width: 100%
+}
+
+.info1 h3{
+	font-size: 25px;
+}
+.list{
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	margin: 10px 20px;
+	color: #14181D;
+ 	font-weight: bold;
+ 	border-radius: 10px;
+ 	background: url("img/noisy_net.png");
+ 	opacity: 0.6;
+ 	left: -14px;
+ 	top: 0;
+}
+.list a{
+	display: block;
+	text-decoration: none;
+	color: #DCDCDC;
+	line-height: 25px;
+}
+
+.list a:hover{
+	opacity: 0.3;
+	box-shadow: none;
+}
+
+
+.list h3{
+	color: #DCDCDC;
+	text-align:center;
+}
+
+.suitbar{
+	clear: both;
+	color: #DCDCDC;
+}
+
+.suitbar li{
+	text-align: left;
+}
+div.footer{
+		margin-top: 20px;
+	}
+
+.findUs{
+	float: left;
+	width: 20%;
+	padding : 20px 0 10px;
+	margin-bottom: 20px;
+}
+
+div.findUs h2{
+	text-align: center;
+	margin: 5px;
+}
+
+.social{
+	width: 160px; 
+	margin: 0 auto; 
+}
+.findUs a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url("img/sprite.png") no-repeat -95px -1px;
+	border: 1px solid black;
+	border-radius: 5px;
+	float: left;
+	margin: 0 10px; 
+}
+
+
+.findUs a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(255, 153, 0, 0.2);
+	}
+
+.findUs a:active{
+	opacity: 0.1;
+}
+
+.findUs .twit{
+	background-position: -53px -43px;
+}
+
+.findUs .vk{
+	background-position: -11px -1px;
+}
+
+div.wrap-Menu{
+	padding-right: 200px;
+}
+
+.menu2{
+	width: 445px;
+	margin: 52px 260px 0 0;
+	float: right;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+ .menu2 li{
+ 	float: left;
+ }
+
+ .menu2 a{
+ 	display: block;
+ 	line-height: 30px;
+ 	padding: 0 20px;
+ 	margin: 10px;
+ 	text-decoration: none;
+ 	color: #14181D;
+ 	font-weight: bold;
+ 	border-radius: 5px;
+ }
+
+.creators{
+	clear: both;
+	text-align: center;
+}
+@media screen and (max-width: 1380px){
+.list {
+	position: static;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: transparent;
+	opacity: 1;
+}
+}
+
+@media screen and (max-width: 720px){
+body{
+	background: none;
+}
+.wrap .small-logo a{
+	color: #DCDCDC;
+}
+.wrap{
+	width: 100%;
+	border-radius: 0;
+	margin: 0;
+	box-shadow:none;
+}
+
+.big-logo{
+	display: none;
+}
+.wrap .small-logo{
+	display: block;
+	color: #DCDCDC;
+	margin: 40px 0;
+}
+
+.findUs{
+	float: none;
+	width: 100%;
+}
+.menu2{
+	float: none;
+	margin: 0 auto 0;
+	/*width: 100%;*/
+}
+
+}
+
+@media screen and (max-width: 560px){
+*{
+	font-size: 16px;
+}
+
+.info1 h2{
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+.info1 h3{
+	font-size: 25px;
+}
+
+.slider{
+		display: none;
+}
+
+
+.small-logo{
+	font-size: 30px;
+}
+
+.menu1{
+	width: 100%;
+}
+.menu1 li{
+	float: none;
+}
+
+.menu1 a, 
+.list a{
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+	padding: 0;
+}
+.list a{
+	margin: 0;
+}
+
+.info{
+	padding: 0;
+}
+
+.info1{
+	float: none;
+	width: 100%;
+	padding: 0;
+
+}
+
+.menu2{
+	display: none;
+}
+
+
+.info p{
+	line-height: 1.2;
+}
+
+.info h1{
+	font-size: 25px;
+}
+.info h2{
+	font-size: 22px;
+}
+
+.info h3{
+	font-size: 18px;
+}
+
+
+
+}
