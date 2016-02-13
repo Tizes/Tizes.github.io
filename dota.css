@@ -317,9 +317,10 @@ a:active {
 }
 
 
-.list h3{
+.wrap .list h3{
 	color: #DCDCDC;
-	text-align:center;
+	text-align: center;
+	font-size: 22px;
 }
 
 .suitbar{
@@ -419,7 +420,18 @@ div.wrap-Menu{
 	opacity: 1;
 }
 }
+@media screen and (max-width: 930px){
+.findUs{
+	float: none;
+	width: 100%;
+}
 
+.menu2{
+	float: none;
+	margin: 0 auto 0;
+}
+
+}
 @media screen and (max-width: 720px){
 body{
 	background: none;
@@ -473,7 +485,7 @@ body{
 }
 
 
-.small-logo{
+.small-logo a{
 	font-size: 30px;
 }
 
@@ -488,7 +500,6 @@ body{
 .list a{
 	width: 100%;
 	margin: 20px 0;
-	text-align: center;
 	padding: 0;
 }
 .list a{
@@ -525,7 +536,4 @@ body{
 .info h3{
 	font-size: 18px;
 }
-
-
-
 }

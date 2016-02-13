@@ -339,7 +339,7 @@ img{
 }
 
 .video_text{
-	padding: 30px;
+	padding: 10px;
 	line-height: 1.5;
 	text-align: justify;
 }
@@ -440,6 +440,12 @@ img{
 .video{
 	height: 40vw;
 }
+.team-member p{
+	float: right;
+	margin: 0 20px 20px 0; 
+	width: 100%;
+	line-height: 1.5;
+}
 }
 
 @media screen and (max-width: 560px){
@@ -452,7 +458,7 @@ img{
 }
 
 .small-logo a{
-	font-size: 25px;
+	font-size: 30px;
 }
 
 .menu1{
